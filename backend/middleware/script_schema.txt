@@ -1,0 +1,15 @@
+script_meta:
+  novel_name: string
+  convert_chapter_range: string
+  create_time: string
+scene_list:
+  - scene_id: int
+    scene_location: string
+    scene_time: string
+    scene_desc: string
+    action_dialog_list:
+      - role_name: string
+        action_before: string|null
+        dialogue: string
+        action_after: string|null
+    scene_note: string|null

@@ -1,0 +1,26 @@
+/node_modules
+/.next
+/out
+.env
+.env.local
+.idea/
+.vscode/
+npm-debug.log*
+# Next
+/node_modules
+/.next
+/out
+.env*
+
+# Python FastAPI
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.sqlite3
+*.db
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
